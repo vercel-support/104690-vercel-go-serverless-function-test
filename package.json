@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "vercel-go-serverless-function-test",
+  "description": "Just an example for go with vercel",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "package": "svelte-kit package",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.5.1",
+    "@sveltejs/adapter-vercel": "next",
+    "@sveltejs/kit": "next",
+    "cookie": "^0.4.1",
+    "svelte": "^3.52.0",
+    "vite": "^3.1.8",
+    "web-vitals": "^2.1.4",
+    "prettier": "^2.6.2",
+    "prettier-plugin-svelte": "^2.7.0",
+    "svelte-check": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}

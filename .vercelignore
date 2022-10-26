@@ -1,0 +1,7 @@
+# ignore everything
+/*
+/.idea/*/*
+
+# allow following
+!api
+!models
