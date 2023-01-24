@@ -8,7 +8,7 @@ import (
 )
 
 func TestHandler(w http.ResponseWriter, r *http.Request) {
-	b := models.Test{Value: "Hi from the api"}
+	b := models.Test{Value: "Hi from the api bruh"}
 
 	body, err := json.Marshal(b)
 	if err != nil {
